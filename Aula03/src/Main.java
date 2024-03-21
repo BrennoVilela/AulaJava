@@ -2,6 +2,7 @@ import br.com.fiap.tds.model.Carro;
 import br.com.fiap.tds.model.Cor;
 import br.com.fiap.tds.model.Aviao;
 import br.com.fiap.tds.model.Lancha;
+import br.com.fiap.tds.model.Elevador;
 
 public class Main {
     public static void main(String[] args) {
@@ -32,6 +33,25 @@ public class Main {
         teste.setCor("Branca");
         teste.setQuantidadeMotores(2);
 
+        Elevador elevador = new Elevador();
+
+        //Elevador
+        elevador.inicializa(10, 20);
+
+        System.out.println("Andar atual: " + elevador.getAndarAtual());
+        System.out.println("Pessoas presentes: " + elevador.getPessoasPresentes());
+
+        elevador.entra();
+        System.out.println("Pessoas presentes: " + elevador.getPessoasPresentes());
+        elevador.sobe();
+        System.out.println("Andar atual: " + elevador.getAndarAtual());
+
+        elevador.sai();
+        System.out.println("Pessoas presentes: " + elevador.getPessoasPresentes());
+        elevador.desce();
+        System.out.println("Andar atual: " + elevador.getAndarAtual());
+
+        //Cor
         Cor prata = new Cor();
         prata.alterarCor(192,192,192, "Prata");
 
