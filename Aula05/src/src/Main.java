@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class main {
+public class Main {
 
     public static void main(String[] args) {
 
@@ -18,5 +18,17 @@ public class main {
         JOptionPane.showMessageDialog(null, "Média: " + media);
 
 
+        //Exibir se o aluno passou ou não de ano
+        //Acima de 6, passou de ano
+        //Entre 4 e 5,9 exame
+        //Abaixo de 4, dp
+
+        if(media >= 6){
+            JOptionPane.showMessageDialog(null, "Parabéns o aluno passou de ano!");
+        } else if(media >= 4 && media <= 5.9){
+            JOptionPane.showMessageDialog(null, "O aluno está de exame.");
+        } else {
+            JOptionPane.showMessageDialog(null, "O aluno ficou de DP.");
+        }
     }
 }
