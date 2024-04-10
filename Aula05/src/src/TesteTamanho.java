@@ -14,6 +14,7 @@ public class TesteTamanho {
         float peso2 = Float.parseFloat(JOptionPane.showInputDialog("Digite o peso da segunda pessoa: "));
         float altura2 = Float.parseFloat(JOptionPane.showInputDialog("Digite a altura da segunda pessoa: "));
 
+        //Comparação de quem é mais pesado
         String maisPesado;
 
         if(peso1 > peso2){
@@ -24,6 +25,7 @@ public class TesteTamanho {
             maisPesado = "Os dois tem o mesmo peso.";
         }
 
+        //Comparação de quem é mais alto
         String maisAlto;
 
         if(altura1 > altura2){
