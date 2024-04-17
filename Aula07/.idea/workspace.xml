@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f385f42b-93da-4073-9a2a-e8d97b453247" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Aula07.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/br/com/fiap/lavanderia/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/br/com/fiap/lavanderia/model/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/br/com/fiap/lavanderia/model/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula01/Aula01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula02/Aula02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula03/Aula03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula03/untitled/untitled.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2fFT3yKKciiJqG5Tl6TwGLystAR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "C:/Users/logonrmlocal/Documents/1TDSPO/AulaJava/Aula07"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f385f42b-93da-4073-9a2a-e8d97b453247" name="Changes" comment="" />
+      <created>1713395632023</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713395632023</updated>
+    </task>
+    <servers />
+  </component>
+</project>
