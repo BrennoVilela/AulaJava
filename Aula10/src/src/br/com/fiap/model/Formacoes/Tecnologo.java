@@ -8,6 +8,16 @@ public class Tecnologo extends Formacao{
         this.planoEstendido = planoEstendido;
     }
 
+    public double calcularMensalidade(int duracao, double fator){
+        double media = duracao * fator * 600;
+        return media;
+    }
+
+    @Override
+    public String toString() {
+        return "Descrição: " + getDescricao() + ", Período: " + getPeriodo() + ", Mensalidade: " + getMensalidade() + ", Duração: " + getDuracao();
+    }
+
     public boolean isPlanoEstendido() {
         return planoEstendido;
     }
