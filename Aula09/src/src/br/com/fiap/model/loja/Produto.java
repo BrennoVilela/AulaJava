@@ -5,7 +5,7 @@ public class Produto {
     private int id;
     private String nome;
     private String descricao;
-    private double preco;
+    protected double preco;
     private float peso;
 
     public Produto(){}
@@ -31,6 +31,11 @@ public class Produto {
         } else {
             return preco * quantidade;
         }
+    }
+
+    @Override
+    public String toString() {
+        return "id: " + getId() + " \nNome: " + getNome() + " \nDescrição: " + getDescricao() + " \nPreço: " + getPreco() + " \nPeso: " + getPeso();
     }
 
     public double calcularPrecoComDesconto(String cupom) {
